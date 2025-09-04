@@ -1,0 +1,92 @@
+{
+  "masses": {
+    "T2W hyperintensity": true,
+    "restricted diffusion": true,
+    "shape": {
+      "Lobular": true,
+      "Oval": true,
+      "Round": true,
+      "Irregular": true
+    },
+    "margin": {
+      "Circumscribed": true,
+      "Not circumscribed": {
+        "irregular": true,
+        "spiculated": true
+      }
+    },
+    "internal_enhancement_characteristics": {
+      "Homogeneous": true,
+      "Heterogeneous": true,
+      "Rim enhancement": true,
+      "Dark internal septations": true
+    }
+  },
+  "non_mass_enhancement": {
+    "distribution": {
+      "Focal": true,
+      "Linear": true,
+      "Segmental": true,
+      "Regional": true,
+      "Multiple regions": true,
+      "Diffuse": true
+    },
+    "Internal enhancement patterns": {
+      "Homogeneous": true,
+      "Heterogeneous": true,
+      "Clustered": true,
+      "Clustered ring": true
+    }
+  },
+  "non_enhancing_lesions": {
+    "Ductal precontrast high signal on T1W": true,
+    "cyst": true,
+    "non_enhancing_mass": true,
+    "Architectural distortion": true
+  },
+  "associated_features": {
+    "nipple_retraction": true,
+    "nipple_invasion": true,
+    "skin_retraction": true,
+    "skin_thickening": true,
+    "skin_invasion": {
+      "Direct invasion": true,
+      "Inflammatory cancer": true
+    },
+    "Axillary adenopathy": true,
+    "Pectoralis muscle invasion": true,
+    "chest_wall_invasion": true,
+    "Architectural distortion": true
+  },
+  "Fat-containing lesions": {
+    "lymph_nodes": {
+      "Normal": true,
+      "Abnormal": true
+    },
+    "fat_necrosis": true,
+    "hamartoma": true
+  },
+  "Kinetic curve assessment ": {
+    "Initial enhancement phase": {
+      "Slow": true,
+      "Medium": true,
+      "Fast": true
+    },
+    "Delayed phase": {
+      "Persistent": true,
+      "Plateau": true,
+      "Wash-out": true
+    }
+  },
+  "BI-RADS_category": {
+    "0": true,
+    "1": true,
+    "2": true,
+    "3": true,
+    "4A": true,
+    "4B": true,
+    "4C": true,
+    "5": true,
+    "6": true
+  }
+}

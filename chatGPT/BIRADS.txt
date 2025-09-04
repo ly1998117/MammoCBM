@@ -1,0 +1,34 @@
+- masses (肿块):
+  - shape (形状): {椭圆形(包括分叶状), 圆形, 不规则形}
+  - margin (边界): {光整, 不光整（不规则、毛刺状）}
+  - internal_enhancement_characteristics (内部强化特点): {均匀, 不均匀, 边缘强化, 内部暗分隔}
+
+- non_mass_enhancement (非肿块强化):
+  - distribution (分布): {局限性, 线性, 节段性, 区域性, 多区域, 弥漫性}
+  - internal_enhancement_characteristics (内部强化特点): {均匀, 不均匀, 簇状, 成簇环状强化}
+
+- non_enhancing_lesions (非强化病变):
+  - T1WI_high_signal_duct (T1WI平扫导管高信号)
+  - cysts (囊肿)
+  - non_enhancing_masses (非强化肿块)
+  - distortion (结构扭曲)
+
+- associated_features (相关征象):
+  - nipple_retraction (乳头回缩)
+  - nipple_invasion (乳头侵犯)
+  - skin_retraction (皮肤回缩)
+  - skin_thickening (皮肤增厚)
+  - skin_invasion (皮肤侵犯): {直接侵犯, 炎性乳癌}
+  - axillary_lymph_node_enlargement (腋窝淋巴结肿大)
+  - pectoral_muscle_invasion (胸大肌受侵)
+  - chest_wall_invasion (胸壁受侵)
+  - perilesional_structural_distortion (结构扭曲（病灶周围）)
+
+- lipid_rich_lesions (含脂病变):
+  - lymph_nodes (淋巴结): {正常, 异常}
+  - fat_necrosis (脂肪坏死)
+  - hamartoma (错构瘤)
+
+- dynamic_curve_analysis (动态曲线分析):
+  - early_enhancement (早期强化): {缓慢, 中等程度, 快速强化}
+  - delayed_enhancement (延迟强化): {流入型, 平台型, 流出型}

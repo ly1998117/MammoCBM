@@ -1,0 +1,11 @@
+_base_ = './base.py'
+encode_dir = 'result/PreStudy_Zeros_ValidOnly/efficientnet-map-b0_pool_LR0.0001_fullshot_128'
+model_name = 'OccCBM'
+avg_pooling = False
+lambda_transform = 0
+lambda_mse = 2
+lambda_occnorm = 0
+pre_encode_to_feature = False
+epochs = 500
+map_activation = 'sigmoid'
+map_pool = 'avg'

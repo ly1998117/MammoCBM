@@ -1,0 +1,35 @@
+Estimate the coordinates of points along the curve.
+
+Note:
+    •	The horizontal axis represents time in seconds (s).
+        - If the original units are milliseconds (ms), convert them to seconds by dividing by 1000.
+        - If the original units are minutes (min), convert them to seconds by multiplying by 60.
+        - If the original units are Series No, use the series number as the x-coordinate.
+    •	The vertical axis represents the data value, as indicated in the graph.
+        - If the y axis does not start from 0, consider that as the baseline value for interpreting the data points.
+    •	For each point, determine its x-coordinate (time or Series) and y-coordinate (data value).
+    •	Use the grid lines to estimate for actual y value of points.
+    •   Ignore dotted lines and focus only on the solid curve.
+
+Steps to Follow:
+    •   Find the curve in the figure and estimate the coordinates of four points: the start, first-increase middle and end points.
+    •   Start point:
+            - The first data point on the curve, usually at the **leftmost side** of the curve.
+            - The start point y value of the curve is not the minimum value on the y-axis.
+    •   First-increase Point:
+            - If the horizontal axis represents time, estimate the coordinates of the first point after the start point (around 120 seconds (2 min) of the curve).
+            - If the horizontal axis is Series No, the First-increase point should be depicted by a horizontal line.
+    •   Middle Point:
+            - If the horizontal axis represents time, estimate the coordinates of the middle point (half of the total time of the curve).
+            - If the horizontal axis is Series No, the middle point should be equal to the first-increase point.
+    •   End point:
+            - The final point of the curve, usually the last data point on the curve.
+            - The final point is at the **rightmost side** of the curve.
+    •   Peak point:
+            - The highest point of the curve.
+            - The peak point may be the one of the start, first-increase, middle or end point.
+
+Output Format:
+    •   For example, if the curve’s points are extracted, the output as JSON would be:
+        ```json{"start": [0, 950], "increase": [120, 1220], "middle":[300, 3500], "end": [426, 1100], "peak": [300, 3500]}```
+
